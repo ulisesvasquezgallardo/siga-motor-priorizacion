@@ -1,0 +1,25 @@
+CONTEXTO NORMATIVO DEL MOTOR DE IA
+===================================
+
+Todo lo que se coloque en esta carpeta se envía a la IA como referencia obligatoria
+para evaluar los expedientes. Formatos aceptados: .pdf (con texto seleccionable), .txt y .md.
+Los archivos se leen en orden alfabético; este archivo (LEEME) se ignora.
+
+Documentos que se deben agregar:
+
+  1. Ley de Presupuesto del Sector Público del año fiscal vigente (texto oficial, El Peruano).
+     Nombre sugerido: 10_ley_presupuesto.pdf
+  2. Plan Estratégico Institucional (PEI) de la UNMSM vigente, con sus OEI y AEI.
+     Nombre sugerido: 20_pei_unmsm.pdf
+  3. (Opcional) Directivas de ejecución presupuestaria, POI, lineamientos internos de la OGPL.
+     Nombre sugerido: 30_..., 40_...
+
+El archivo 00_criterios_ogpl.md contiene la rúbrica AHP institucional (pesos, subcriterios y
+estados). Se puede editar para ajustar el criterio de la oficina.
+
+Notas:
+  - Los PDF escaneados (imágenes) no tienen texto extraíble: aplíqueles OCR o conviértalos a .txt.
+  - Mientras más extensos sean los documentos, mayor es el costo por procesamiento. El sistema
+    reutiliza el contexto entre lotes (caché), pero conviene incluir solo lo pertinente
+    (por ejemplo, el articulado de la ley sin los anexos de montos por pliego).
+  - En la pantalla del motor, el botón "Contexto normativo" muestra qué documentos se cargaron.

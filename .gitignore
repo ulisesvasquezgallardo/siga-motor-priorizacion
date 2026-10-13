@@ -1,0 +1,13 @@
+# Entorno virtual y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Memoria local de la IA (evaluaciones y validaciones internas)
+memoria_ia.db
+
+# Exportaciones generadas por la aplicación
+Plan_Trabajo_SIGA_*.xlsx
+
+# Variables de entorno / credenciales
+.env
